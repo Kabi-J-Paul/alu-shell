@@ -1,3 +1,2 @@
 #!/bin/bash
-cut -c1 | tr -d "
-" | tr a-z A-Z; echo
+cut -c1 | tr "\n" " " | tr -d " " | tr a-z A-Z
