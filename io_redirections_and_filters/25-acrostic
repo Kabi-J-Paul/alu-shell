@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1 | tr "\n" " " | tr -d " " | tr a-z A-Z
+cut -c1 | tr a-z A-Z | paste -sd ""
