@@ -1,0 +1,3 @@
+#!/bin/bash
+printf "
+" {a..z}{a..z}|comm -23 - <(echo oo)
