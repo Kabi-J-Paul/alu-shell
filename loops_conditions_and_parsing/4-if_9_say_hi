@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-# Displays numbers 1 to 10, printing "Hi" right after the number 9
+# Displays "Best School" 10 times, printing "Hi" after the 9th iteration
 i=1
 while [ "$i" -le 10 ]; do
 	if [ "$i" -lt 9 ]; then
-		echo "$i"
+		echo "Best School"
 	elif [ "$i" -eq 9 ]; then
-		echo "$i"
+		echo "Best School"
 		echo Hi
 	else
-		echo "$i"
+		echo "Best School"
 	fi
 	i=$((i + 1))
 done
