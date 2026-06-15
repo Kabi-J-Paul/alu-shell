@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This scirpt desplays "Best Sool" 10 times using an until loop
 i=0
-until [ "$i" -gt 10 ]; do   
+until [ "$i" -ge 10 ]; do   
     echo "Best School"
     i=$((i+1))
 done
