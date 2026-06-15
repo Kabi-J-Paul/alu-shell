@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Displays numbers 1 to 10; "bad luck" for 4, "good luck" for 8
+# Displays "Best School" 10 times; "bad luck" on the 4th, "good luck" on the 8th
 i=1
 while [ "$i" -le 10 ]; do
 	if [ "$i" -eq 4 ]; then
@@ -7,8 +7,7 @@ while [ "$i" -le 10 ]; do
 	elif [ "$i" -eq 8 ]; then
 		echo "good luck"
 	else
-		echo "$i"
+		echo "Best School"
 	fi
 	i=$((i + 1))
 done
-
